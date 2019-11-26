@@ -28,6 +28,9 @@ npm start
 - React Hooks were invented by the React team to introduce state management and side-effects in function components. It’s their way of making it more effortless to use only React function components without the need to refactor a React function component to a React class component for using lifecycle methods, in order to use have side-effects, or local state. React Hooks enable us to write React applications with only function components.
 - When a component is defined on a page in our application, we can't depend upon it being available in the DOM immediately as we're defining virtual nodes.
 - Instead, we have to wait until the component itself has actually mounted in the browser. 
+- Reference: 
+  - [React Component LifeCycle](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+  - [LifeCycle Visual](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 ### What is Mounting?
 - Since we're defining virtual representations of nodes in our DOM tree with React, we're not actually defining DOM nodes. Instead, we're building up an in-memory view that React maintains and manages for us. When we talk about mounting, we're talking about the process of converting the virtual components into actual DOM elements that are placed in the DOM by React.
