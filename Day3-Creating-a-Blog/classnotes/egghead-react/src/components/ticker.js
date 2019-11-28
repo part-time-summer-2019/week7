@@ -19,7 +19,7 @@ export default class Ticker extends React.Component {
 
         let responsePromise = axios.get('/time.json');
 
-        responsePromise.then(function(response) {
+        responsePromise.then((response) => {
                 console.log(response);
 
                 let timeFromServer = response.data.time;
