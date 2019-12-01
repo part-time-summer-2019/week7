@@ -1,0 +1,19 @@
+.box {
+    margin: 100px auto;
+    border: 1px solid black;
+} 
+
+.box--small {
+    height: 60px;
+    width: 80px;
+}
+
+.box--medium {
+    height: 120px;
+    width: 160px;
+}
+
+.box--large {
+    height: 180px;
+    width: 240px;
+}
